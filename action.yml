@@ -1,5 +1,5 @@
-name: 'Hexo Deploy Action With CNAME'
-description: 'This GitHub action will handle the building and deploying process of hexo project.'
+name: 'Hexo-deploy-action-with-cname'
+description: 'This GitHub action will handle the building and deploying process of hexo project.And CNAME is enabled'
 author: 'Forest10'
 runs:
   using: 'docker'
