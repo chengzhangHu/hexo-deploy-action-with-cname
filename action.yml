@@ -1,4 +1,4 @@
-name: 'Hexo-deploy-action-with-cname'
+name: 'HEXO_DEPLOY_WITH_CNAME_ENABLED'
 description: 'This GitHub action will handle the building and deploying process of hexo project.And CNAME is enabled'
 author: 'Forest10'
 runs:
