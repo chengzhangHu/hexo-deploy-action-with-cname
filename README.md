@@ -20,8 +20,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: Forest10/hexo-deploy-action@master
+      uses: Forest10/hexo-deploy-action-with-cname@master
       env:
+         USER_NAME: Forest10 # optional
+         EMAIL: github.forest10@gmail.com # optional
         CNAME: blog.github.com # optional
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_REPOSITORY: Forest10/forest10.github.io # The repository the action should deploy to.
