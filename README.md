@@ -22,6 +22,7 @@ jobs:
     - name: Build and Deploy
       uses: Forest10/hexo-deploy-action@master
       env:
+        CNAME: blog.github.com # optional
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_REPOSITORY: Forest10/forest10.github.io # The repository the action should deploy to.
         BRANCH: master  # The branch the action should deploy to.
