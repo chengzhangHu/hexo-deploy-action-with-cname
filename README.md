@@ -3,7 +3,8 @@
 针对原有action无法进行CNAME操作进行整改.确保可用
 
 
-This [GitHub action](https://github.com/features/actions) will handle the building and deploying process of hexo project.
+This [GitHub action](https://github.com/features/actions) will handle the building and deploying process of hexo
+ project with CNAME enabled.
 
 ## Getting Started
 
